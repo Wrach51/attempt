@@ -9,6 +9,8 @@
 //close.addEventListener('click', function(){
  //   modal.classList.remove('modal_active');
  //});
+// Napojení knihovny wow.js
+ new WOW().init();
 
 
  $(document).ready(function(){
@@ -25,7 +27,7 @@
       modal.removeClass('modal_active');
 
    });
-
+   // Napojení slideru
    $('.slider').slick({
       slidesToShow: 3,
       prevArrow: $('.arrows__left'),
